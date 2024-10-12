@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 public class Win : MonoBehaviour
@@ -17,7 +15,7 @@ public class Win : MonoBehaviour
     public float ScoreValue;
 
     public float Maths;
-    // Update is called once per frame
+
     void Update()
     {
 

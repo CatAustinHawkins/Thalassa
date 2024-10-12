@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -431,6 +430,5 @@ public class PlayerMovement : MonoBehaviour
         PlayerRock.transform.localPosition = new Vector3(-5.19f,-0.98f,-0.223f);
         PlayerSardine.transform.localPosition = new Vector3(-4.54f, -0.4f, -0.222f);
         PlayerKey.transform.localPosition = new Vector3(-5.44f, -0.27f, -0.374f);
-
     }
 }

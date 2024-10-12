@@ -1,9 +1,4 @@
-
-
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
 
 public class SelectionTest : MonoBehaviour
 {
@@ -65,10 +60,6 @@ public class SelectionTest : MonoBehaviour
             {
                 highlight2 = null;
             }
-
         }
-
-  
     }
-
 }

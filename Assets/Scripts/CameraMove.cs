@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CameraMove : MonoBehaviour
@@ -68,7 +67,6 @@ public class CameraMove : MonoBehaviour
         Room2Entered = true;
         Puzzle1Complete.SetActive(true);
         StartCoroutine(Wait());
-
     }
 
     public void Room2VentUnlocked()
@@ -77,7 +75,6 @@ public class CameraMove : MonoBehaviour
         VentUnlocked = true;
         Puzzle2Complete.SetActive(true);
         StartCoroutine(Wait());
-
     }
 
     public void Room3Enter()
